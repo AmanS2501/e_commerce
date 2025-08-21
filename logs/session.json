@@ -122,5 +122,15 @@
             "order_id": null,
             "message": null
         }
+    },
+    {
+        "user_input": "Hi",
+        "llm_response": {
+            "action": "reply",
+            "filters": null,
+            "id": null,
+            "order_id": null,
+            "message": "Hello! How can I assist you today?"
+        }
     }
 ]
