@@ -1,0 +1,126 @@
+[
+    {
+        "user_input": "Hi",
+        "llm_response": {
+            "action": "reply",
+            "message": "Unable to parse response: {\"action\": \"reply\", \"message\": \"Hello! How can I assist you today?\"} (Error: Got invalid return object. Expected key `id` to be present, but got {'action': 'reply', 'message': 'Hello! How can I assist you today?'}\nFor troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE )"
+        }
+    },
+    {
+        "user_input": "show me cart",
+        "llm_response": {
+            "action": "reply",
+            "message": "Unable to parse response: {\"action\": \"show_cart\"} (Error: Got invalid return object. Expected key `id` to be present, but got {'action': 'show_cart'}\nFor troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE )"
+        }
+    },
+    {
+        "user_input": "add 36576576152 to cart",
+        "llm_response": {
+            "action": "reply",
+            "message": "Unable to parse response: {\"action\": \"add_to_cart\", \"id\": \"36576576152\"} (Error: Got invalid return object. Expected key `filters` to be present, but got {'action': 'add_to_cart', 'id': '36576576152'}\nFor troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE )"
+        }
+    },
+    {
+        "user_input": "Hi",
+        "llm_response": {
+            "action": "reply",
+            "message": "Unable to parse response: {\"action\": \"reply\", \"message\": \"Hello! How can I assist you today?\"} (Error: Got invalid return object. Expected key `id` to be present, but got {'action': 'reply', 'message': 'Hello! How can I assist you today?'}\nFor troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE )"
+        }
+    },
+    {
+        "user_input": "Hi",
+        "llm_response": {
+            "action": "reply",
+            "message": "Unable to parse response: {\"action\": \"reply\", \"message\": \"Hello! How can I assist you today?\"} (Error: Got invalid return object. Expected key `id` to be present, but got {'action': 'reply', 'message': 'Hello! How can I assist you today?'}\nFor troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE )"
+        }
+    },
+    {
+        "user_input": "add 25465426 to cart",
+        "llm_response": {
+            "action": "reply",
+            "message": "Unable to parse response: {\"action\": \"add_to_cart\", \"id\": 25465426} (Error: Got invalid return object. Expected key `filters` to be present, but got {'action': 'add_to_cart', 'id': 25465426}\nFor troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE )"
+        }
+    },
+    {
+        "user_input": "Hi",
+        "llm_response": {
+            "action": "reply",
+            "message": "Unable to parse response: Hi! How can I help you today? (Error: Got invalid JSON object. Error: Expecting value: line 1 column 1 (char 0)\nFor troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE )"
+        }
+    },
+    {
+        "user_input": "show me electronics under 2987873",
+        "llm_response": {
+            "action": "reply",
+            "message": "Unable to parse response: I think there might be some mistake! The price you provided, \u20b929,87,873, seems quite high for electronics. Are you looking for high-end electronics or perhaps a specific brand? If you meant to type a different price, please let me know and I'd be happy to assist you. (Error: Got invalid JSON object. Error: Expecting value: line 1 column 1 (char 0)\nFor troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE )"
+        }
+    },
+    {
+        "user_input": "Hi",
+        "llm_response": {
+            "action": "reply",
+            "message": "Unable to parse response: Hello! How can I help you today? (Error: Got invalid JSON object. Error: Expecting value: line 1 column 1 (char 0)\nFor troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE )"
+        }
+    },
+    {
+        "user_input": "show me electonics under 10000",
+        "llm_response": {
+            "action": "reply",
+            "message": "Unable to parse response: Sure! Here are some electronics you can get for \u20b910,000 or less:\n\n- **Smartphones**: Budget models from brands like Realme, Redmi, and Samsung (e.g., Redmi 12, Realme C55).\n- **Headphones & Earbuds**: Wired headphones, Bluetooth earbuds such as Boat Airdopes, JBL C100.\n- **Power Banks**: 10,000\u202fmAh to 20,000\u202fmAh options from Mi, Redmi, and Anker.\n- **Smart Watches**: Basic fitness bands and smart watches from Noise, Amazfit, and Realme.\n- **Speakers**: Portable Bluetooth speakers from JBL, Boat, and Sony.\n- **Home Appliances**: Electric kettles, toasters, and mini rice cookers from Philips and Prestige.\n\nLet me know if you\u2019d like details on any specific product or want to add something to your cart! (Error: Got invalid JSON object. Error: Expecting value: line 1 column 1 (char 0)\nFor troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE )"
+        }
+    },
+    {
+        "user_input": "Hi",
+        "llm_response": {
+            "action": "reply",
+            "message": "Unable to parse response: Hello! How can I assist you with your shopping today?  \n{\"action\": \"reply\", \"message\": \"Hello! How can I assist you with your shopping today?\"} (Error: Got invalid JSON object. Error: Expecting value: line 1 column 1 (char 0)\nFor troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE )"
+        }
+    },
+    {
+        "user_input": "Hi",
+        "llm_response": {
+            "action": "reply",
+            "message": "Unable to parse response: {\"action\": \"reply\", \"message\": \"Hello! How can I assist you with Allmart today?\"} (Error: Got invalid return object. Expected key `id` to be present, but got {'action': 'reply', 'message': 'Hello! How can I assist you with Allmart today?'}\nFor troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE )"
+        }
+    },
+    {
+        "user_input": "Hi",
+        "llm_response": {
+            "action": "reply",
+            "message": "Unable to parse response: {\"action\": \"reply\", \"message\": \"Hello! How can I assist you with Allmart today?\"} (Error: Got invalid return object. Expected key `id` to be present, but got {'action': 'reply', 'message': 'Hello! How can I assist you with Allmart today?'}\nFor troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE )"
+        }
+    },
+    {
+        "user_input": "Hi",
+        "llm_response": {
+            "action": "reply",
+            "filters": null,
+            "id": null,
+            "order_id": null,
+            "message": "Hello! How can I assist you today?"
+        }
+    },
+    {
+        "user_input": "show me electronics under 40000",
+        "llm_response": {
+            "action": "search_products",
+            "filters": {
+                "category": "electronics",
+                "max_price": 40000
+            },
+            "id": null,
+            "order_id": null,
+            "message": null
+        }
+    },
+    {
+        "user_input": "add 3876587532 to the cart",
+        "llm_response": {
+            "action": "add_to_cart",
+            "filters": null,
+            "id": "3876587532",
+            "order_id": null,
+            "message": null
+        }
+    }
+]
