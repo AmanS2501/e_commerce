@@ -5,7 +5,7 @@ from langchain_groq import ChatGroq
 load_dotenv()
 
 class GroqLLM:
-    def __init__(self, model_name="openai/gpt-oss-120b", temperature=0):
+    def __init__(self, model_name="llama3-70b-8192", temperature=0):
         self.llm = ChatGroq(
             model=model_name,
             temperature=temperature,
