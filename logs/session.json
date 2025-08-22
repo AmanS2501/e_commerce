@@ -162,5 +162,55 @@
             "order_id": null,
             "message": null
         }
+    },
+    {
+        "user_input": "Hi",
+        "llm_response": {
+            "action": "reply",
+            "filters": null,
+            "id": null,
+            "order_id": null,
+            "message": "Hello! How can I help you today?"
+        }
+    },
+    {
+        "user_input": "Hello",
+        "llm_response": {
+            "action": "reply",
+            "filters": null,
+            "id": null,
+            "order_id": null,
+            "message": "Hi there! How can I assist you with Allmart today?"
+        }
+    },
+    {
+        "user_input": "ad 34723476",
+        "llm_response": {
+            "action": "add_to_cart",
+            "filters": null,
+            "id": "34723476",
+            "order_id": null,
+            "message": null
+        }
+    },
+    {
+        "user_input": "",
+        "llm_response": {
+            "action": "reply",
+            "filters": null,
+            "id": null,
+            "order_id": null,
+            "message": "Is there anything else I can help you with?"
+        }
+    },
+    {
+        "user_input": "add 2545613",
+        "llm_response": {
+            "action": "add_to_cart",
+            "filters": null,
+            "id": "2545613",
+            "order_id": null,
+            "message": null
+        }
     }
 ]
