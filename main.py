@@ -40,7 +40,6 @@ def main():
         messages.append({"role": "assistant", "content": json.dumps(llm_response)})
         print(f"LLM (structured): {json.dumps(llm_response, indent=2)}")
 
-        # Log each turn (no user ID required)
         log_interaction({
             "user_input": user_input,
             "llm_response": llm_response
