@@ -132,5 +132,35 @@
             "order_id": null,
             "message": "Hello! How can I assist you today?"
         }
+    },
+    {
+        "user_input": "Hi",
+        "llm_response": {
+            "action": "reply",
+            "filters": null,
+            "id": null,
+            "order_id": null,
+            "message": "Hello! How can I help you today?"
+        }
+    },
+    {
+        "user_input": "ad 2876583",
+        "llm_response": {
+            "action": "add_to_cart",
+            "filters": null,
+            "id": "2876583",
+            "order_id": null,
+            "message": null
+        }
+    },
+    {
+        "user_input": "remove 75687324 from cart",
+        "llm_response": {
+            "action": "remove_from_cart",
+            "filters": null,
+            "id": "75687324",
+            "order_id": null,
+            "message": null
+        }
     }
 ]
