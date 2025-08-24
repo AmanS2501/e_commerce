@@ -210,3 +210,5 @@ __marimo__/
 .logs
 
 session.json
+
+.chromdb_FAQ

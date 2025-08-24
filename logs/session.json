@@ -212,5 +212,68 @@
             "order_id": null,
             "message": null
         }
+    },
+    {
+        "user_input": "Hi",
+        "llm_response": {
+            "action": "reply",
+            "filters": null,
+            "id": null,
+            "order_id": null,
+            "message": "Hello! How can I assist you today?"
+        }
+    },
+    {
+        "user_input": "show electronics under 10000",
+        "llm_response": {
+            "action": "search_products",
+            "filters": {
+                "category": "electronics",
+                "max_price": 10000
+            },
+            "id": null,
+            "order_id": null,
+            "message": null
+        }
+    },
+    {
+        "user_input": "Hi",
+        "llm_response": {
+            "action": "reply",
+            "filters": null,
+            "id": null,
+            "order_id": null,
+            "message": "Hello! How can I assist you today?"
+        }
+    },
+    {
+        "user_input": "Where is my order?",
+        "llm_response": {
+            "action": "reply",
+            "filters": null,
+            "id": null,
+            "order_id": null,
+            "message": "Sure, could you please provide your order ID so I can check the status for you?"
+        }
+    },
+    {
+        "user_input": "the order id is 25463524",
+        "llm_response": {
+            "action": "get_order_status",
+            "filters": null,
+            "id": null,
+            "order_id": "25463524",
+            "message": null
+        }
+    },
+    {
+        "user_input": "within how many days can I return that oredr?",
+        "llm_response": {
+            "action": "reply",
+            "filters": null,
+            "id": null,
+            "order_id": null,
+            "message": "You can return your order within 30 days of delivery, provided the items are in their original condition and packaging. If you need to start a return, just let me know and I can help you with the process."
+        }
     }
 ]
