@@ -275,5 +275,153 @@
             "order_id": null,
             "message": "You can return your order within 30 days of delivery, provided the items are in their original condition and packaging. If you need to start a return, just let me know and I can help you with the process."
         }
+    },
+    {
+        "user_input": "Hi",
+        "llm_response": {
+            "action": "reply",
+            "filters": null,
+            "id": null,
+            "order_id": null,
+            "message": "Hello! How can I assist you today?"
+        }
+    },
+    {
+        "user_input": "show me 9863276",
+        "llm_response": {
+            "action": "reply",
+            "filters": null,
+            "id": null,
+            "order_id": null,
+            "message": "Sure! Could you please let me know what you would like to do with product ID 9863276? For example, you can add it to your cart, remove it, or ask for more details."
+        }
+    },
+    {
+        "user_input": "show me product of id 26576213",
+        "llm_response": {
+            "action": "search_products",
+            "filters": {
+                "id": "26576213"
+            },
+            "id": null,
+            "order_id": null,
+            "message": null
+        }
+    },
+    {
+        "user_input": "add this to cart",
+        "llm_response": {
+            "action": "add_to_cart",
+            "filters": null,
+            "id": "26576213",
+            "order_id": null,
+            "message": null
+        }
+    },
+    {
+        "user_input": "where my this order?",
+        "llm_response": {
+            "action": "reply",
+            "filters": null,
+            "id": null,
+            "order_id": null,
+            "message": "Could you please provide your order ID so I can check the status for you?"
+        }
+    },
+    {
+        "user_input": "Thank you",
+        "llm_response": {
+            "action": "reply",
+            "filters": null,
+            "id": null,
+            "order_id": null,
+            "message": "You\u2019re welcome! Let me know if there\u2019s anything else I can help you with."
+        }
+    },
+    {
+        "user_input": "how to exit this chatbot",
+        "llm_response": {
+            "action": "reply",
+            "filters": null,
+            "id": null,
+            "order_id": null,
+            "message": "You can simply close the chat window or navigate away from the page to exit the chatbot. If you need further assistance later, feel free to return!"
+        }
+    },
+    {
+        "user_input": "Hi",
+        "llm_response": {
+            "action": "reply",
+            "filters": null,
+            "id": null,
+            "order_id": null,
+            "message": "Hello! How can I assist you today?"
+        }
+    },
+    {
+        "user_input": "show me product 877235873",
+        "llm_response": {
+            "action": "search_products",
+            "filters": {
+                "id": "877235873"
+            },
+            "id": null,
+            "order_id": null,
+            "message": null
+        }
+    },
+    {
+        "user_input": "show me samsung M34",
+        "llm_response": {
+            "action": "search_products",
+            "filters": {
+                "name": "samsung M34"
+            },
+            "id": null,
+            "order_id": null,
+            "message": null
+        }
+    },
+    {
+        "user_input": "add this to cart",
+        "llm_response": {
+            "action": "reply",
+            "filters": null,
+            "id": null,
+            "order_id": null,
+            "message": "Sure! Please provide the product ID you would like to add to your cart."
+        }
+    },
+    {
+        "user_input": "add this product",
+        "llm_response": {
+            "action": "reply",
+            "filters": null,
+            "id": null,
+            "order_id": null,
+            "message": "Could you please provide the product ID you want to add to your cart?"
+        }
+    },
+    {
+        "user_input": "show me product 29863",
+        "llm_response": {
+            "action": "search_products",
+            "filters": {
+                "id": "29863"
+            },
+            "id": null,
+            "order_id": null,
+            "message": null
+        }
+    },
+    {
+        "user_input": "add this to cart",
+        "llm_response": {
+            "action": "add_to_cart",
+            "filters": null,
+            "id": "29863",
+            "order_id": null,
+            "message": null
+        }
     }
 ]
